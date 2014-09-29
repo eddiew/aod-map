@@ -10,7 +10,7 @@ function initMap() {
 }
 google.maps.event.addDomListener(window, 'load', initMap);
 // Read location history
-var fileName = 'history-09-20-2014.kml';
+var fileName = 'history-09-22-2014.kml';
 var xmlHttpRequest = new XMLHttpRequest();
 xmlHttpRequest.addEventListener('load', complete, false);
 xmlHttpRequest.open("GET", fileName, true);
